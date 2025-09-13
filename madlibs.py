@@ -7,8 +7,6 @@ answer4 = input("What is your favorite animal? ")
 
 
 
-print("Today, an unsuspecting person named " + answer1 + " crossed my path, so I went to " + answer2 + " to spy on them. I snuck behind the counter and put doo doo from my pet " + answer4 + " into their order. They took a HUGE bite of their " + answer3 + " and subsequnently threw up. Hahaha. Sucks to be you, " + answer1 + ".") 
-
 print(f"Today, an unsuspecting person named {answer1} crossed my path, so I went to {answer2} to spy on them. I snuck behind the counter and put doo doo from my pet {answer4} into their order. They took a HUGE bite of their {answer3} and subsequnently threw up. Hahaha. Sucks to be you, {answer1}.") 
 
 
