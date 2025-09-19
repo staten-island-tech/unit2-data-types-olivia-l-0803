@@ -1,16 +1,12 @@
-bill = int(input("How much was your bill? "))
+bill = float(input("How much was your bill? "))
 answer = int(input("Please rate your service from 1-10: "))
 tip = 0
 
 def calculate_tip(perctenage):
     tip = bill * perctenage
     total = bill + tip
-    print("You tipped: ")
-    print(tip)
-    print("Your total is: ")
-    print(total)
-
-
+    print(f"You tipped {tip} and your total is {total} Thank you 🙂.")
+    
 if answer < 3:
     print("Lets tip 0%.")
     calculate_tip(0)
