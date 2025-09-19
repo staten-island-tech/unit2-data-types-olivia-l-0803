@@ -38,17 +38,18 @@ def primey(n):
         x = list(factors(n))
         print(f"This is not a prime number. The factors are {x}.")
 
-Answer1 = input("Welcome to my calculator! Would you like to find factors, find the greatest common factors, or determine if something is a prime number? ")
+Answer1 = input("Welcome to my calculator! Would you like to find factors, find the greatest common factors, or determine if something is a prime number? ").lower()
 
-if Answer1 == "factors" or "Factors" or "factor" or "Factor":
+""" if Answer1 == "factors" or "factor":
     num = int(input("What number would you like to find the factors of? "))
     factors(num)
     print(f" The factors are{list(factors(num))}")
-elif Answer1 == "greatest common factors" or "Greatest common factors" or "greatest common factor" or "Greatest common factor" or "gcf" or "GCF":
+elif Answer1 == "greatest common factors" or "greatest common factor" or "gcf":
     num1 = int(input("What is the first number? "))
     num2 = int(input("What is the second number? "))
     greatfactor(num1, num2)
     print(f"The greatest common factor is {list(greatfactor(num1, num2))}. ")
-elif Answer1 == "prime" or "Prime" or "prime number" or "Prime number":
+elif Answer1 == "prime" or "prime number":
     num3 = int(input("What number would you like to check? "))
     primey(num3)
+ """
